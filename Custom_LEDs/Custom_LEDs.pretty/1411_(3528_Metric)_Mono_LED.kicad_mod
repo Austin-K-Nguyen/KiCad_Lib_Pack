@@ -1,0 +1,190 @@
+(footprint "1411_(3528_Metric)_Mono_LED"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "1411 Imperial / 3528 Metric Sized Mono LED footprint, https://www.digikey.ca/en/products/detail/w%C3%BCrth-elektronik/150141RS73100/4489966")
+	(tags "LED RED MONO SMD")
+	(property "Reference" "REF**"
+		(at 0 2.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "404cbe76-9edf-4969-87ba-8667405a3d6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1411_(3528_Metric)_Mono_LED"
+		(at 0 4.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0e4eb758-1e2d-48bd-bee0-bff6e30e2621")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11b64fe3-608c-4050-9a63-da6492e7e3bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "030fea76-e232-4df5-99de-b3946cad38e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9025e2b-0b39-411b-8a9d-b5595a3b7652")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.875 -1.5)
+		(end -2.875 1.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "33012f8d-3823-49f6-827c-9c2b6ec2dca1")
+	)
+	(fp_line
+		(start -2.525 -1.5)
+		(end -2.225 -1.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8df193ab-c38a-4555-afce-6d3cd34042ba")
+	)
+	(fp_line
+		(start -2.525 -1.2)
+		(end -2.525 -1.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "365ed4ec-b5ee-4928-834a-1cbae1ccbc2b")
+	)
+	(fp_line
+		(start -2.525 -1.2)
+		(end -2.525 1.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "70d80f79-ad00-4c9a-939f-ded2a2cea698")
+	)
+	(fp_line
+		(start -2.525 1.5)
+		(end 2.525 1.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a15670b9-ae11-4505-a600-f973a6a56d53")
+	)
+	(fp_line
+		(start 2.525 -1.5)
+		(end -2.225 -1.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0e870d80-6530-4916-a21d-8468fd74bbab")
+	)
+	(fp_line
+		(start 2.525 1.5)
+		(end 2.525 -1.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5265ba4b-a75b-4ee9-8439-9c8ee820b1b1")
+	)
+	(fp_rect
+		(start -3.025 -1.65)
+		(end 2.675 1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b9d31471-1f7e-434a-8466-1fb414dc26dc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4ca7c819-4b8b-4d64-bb33-4f4a87a8eddd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.425 0 180)
+		(size 1.6 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "0d664bb0-a0a1-49bf-a40b-2455e9f0ceda")
+	)
+	(pad "2" smd rect
+		(at 1.425 0 180)
+		(size 1.6 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "cbdaeac4-0a9c-4823-8cf8-b92dcdfe3613")
+	)
+	(model "C:/Users/austi/Desktop/Stuff/KiCad_Libs/Custom_LEDs/Custom_LED_Models/Download_STP_WL-SMTW-3528_rev1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
